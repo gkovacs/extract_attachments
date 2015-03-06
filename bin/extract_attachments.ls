@@ -1,3 +1,5 @@
+#!/usr/bin/env lsc
+
 require! {
   mailparser
   fs

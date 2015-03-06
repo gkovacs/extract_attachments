@@ -2,11 +2,14 @@
   "name": "extract_attachments",
   "version": "1.0.0",
   "description": "Commandline utility written in node to extract attachments from an email message",
-  "main": "extract_attachments.js",
+  "main": "./bin/extract_attachments",
   "dependencies": {
     "mailparser": "^0.4.9"
   },
   "devDependencies": {},
+  "bin": {
+    "extract_attachments": "./bin/extract_attachments"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
