@@ -1,6 +1,6 @@
 {
   "name": "extract_attachments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Commandline utility written in node to extract attachments from an email message",
   "main": "./bin/extract_attachments",
   "dependencies": {
