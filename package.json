@@ -1,0 +1,29 @@
+{
+  "name": "extract_attachments",
+  "version": "1.0.0",
+  "description": "Commandline utility written in node to extract attachments from an email message",
+  "main": "extract_attachments.js",
+  "dependencies": {
+    "mailparser": "^0.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gkovacs/extract_attachments.git"
+  },
+  "keywords": [
+    "email",
+    "attachments",
+    "commandline",
+    "utility"
+  ],
+  "author": "Geza Kovacs (http://github.com/gkovacs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkovacs/extract_attachments/issues"
+  },
+  "homepage": "https://github.com/gkovacs/extract_attachments"
+}
